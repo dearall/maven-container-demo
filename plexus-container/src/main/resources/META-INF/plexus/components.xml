@@ -1,0 +1,9 @@
+<component-set>
+    <components>
+        <component>
+            <role>org.codehaus.plexus.examples.tutorial.container.Cheese</role>
+            <role-hint>parmesan</role-hint>
+            <implementation>org.codehaus.plexus.examples.tutorial.container.ParmesanCheese</implementation>
+        </component>
+    </components>
+</component-set>
