@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sisu-plexus-container</artifactId>
+    <groupId>net.mvnindex.demo.guice</groupId>
+    <artifactId>guice-demo</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -17,16 +18,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.eclipse.sisu</groupId>
-            <artifactId>org.eclipse.sisu.plexus</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.sisu</groupId>
-            <artifactId>org.eclipse.sisu.inject</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
         </dependency>
     </dependencies>
+
 </project>
